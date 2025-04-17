@@ -17,7 +17,7 @@ public class CabLocationController {
     private CabLocationService cabLocationService;
 
     @PutMapping
-    public ResponseEntity updateLocation() throws InterruptedException{
+    public ResponseEntity updateLocation() throws InterruptedException {
 
         int range = 100;
         while (range > 0) {
