@@ -10,7 +10,7 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaConfig {
 
     @Bean
-    public NewTopic topic() {
+    public NewTopic topic(){
         return TopicBuilder.name(AppConstant.CAB_LOCATION).build();
     }
 }
