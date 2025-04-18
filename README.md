@@ -1,7 +1,7 @@
 # Cab Book - Kafka Demo (Driver & User)   
 
 This is a **basic implementation of Apache Kafka** using Spring Boot to demonstrate real-time communication between a **cab driver** and a **user**.It is intended for educational purposes, to help understand the core concepts of Kafka in a
-microservices-like setup, check out more.
+microservices-like setup, check out more
 
 ---
 
